@@ -9,8 +9,8 @@ def selection_sort(arr):
       if arr[element] < min_value:
         min_value = arr[element]
     arr.remove(min_value)
-    if not min_value in sorted_list:
-      sorted_list.append(min_value)
+    # if not min_value in sorted_list:
+    sorted_list.append(min_value)
   return sorted_list
 
 results = selection_sort(testValues)  

@@ -11,8 +11,8 @@ def linear_search(arr, target):
 def binary_search(arr, target):
     first = 0
     last = len(arr) - 1
-    middle = (first+last) // 2
     while first <= last:
+        middle = (first+last) // 2
         if arr[middle] == target:
             return middle
         elif arr[middle] < target:
