@@ -11,6 +11,7 @@ def selection_sort(arr):
     arr.remove(min_value)
     # if not min_value in sorted_list:
     sorted_list.append(min_value)
+   
   return sorted_list
 
 results = selection_sort(testValues)  
